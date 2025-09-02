@@ -75,7 +75,7 @@ export function BiografiaSection() {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center">
                 <Image
-                  src="/CHRIST.PNG"
+                  src="/CHRISTIAN.PNG"
                   alt="Retrato profesional de especialista en multimedia e inteligencia artificial"
                   width={288}
                   height={288}
@@ -83,7 +83,7 @@ export function BiografiaSection() {
                   priority
                   onError={(e) => {
                     const target = e.target as HTMLImageElement
-                    target.src = "/CHRIST.PNG"
+                    target.src = "/CHRISTIAN.PNG"
                   }}
                 />
               </div>
